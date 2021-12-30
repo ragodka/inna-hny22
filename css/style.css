@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  background: linear-gradient(to top, #00c6fb 0%, #005bea 100%) fixed;
+
+  font-family: "Lobster", cursive;
+  color: #00c6fb;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-right: 2px dotted gold;
+  border-left: 3px dotted gold;
+  border-radius: 10px;
+}
+.bells {
+  display: block;
+  margin: 5px auto 5px;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px auto 20px;
+}
+.press {
+  font-size: 15px;
+  text-align: center;
+}
+.christmastree {
+  width: 60vw;
+  height: 60vh;
+  margin: 0 auto;
+  padding: 5px;
+  cursor: pointer;
+}
+.notoystree {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.withtoystree {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
